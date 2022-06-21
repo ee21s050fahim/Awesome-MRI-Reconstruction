@@ -6,7 +6,17 @@
 ### Review
  - Deep learning for fast MR imaging: a review for learning reconstruction from incomplete k-space data [[paper](https://arxiv.org/abs/2012.08931)]
  - Deep Magnetic Resonance Image Reconstruction: Inverse Problems Meet Neural Networks [[paper](https://ieeexplore.ieee.org/abstract/document/8962949)]
+ - AI-Based Reconstruction for Fast MRI—A Systematic Review and Meta-Analysis [[paper](https://ieeexplore.ieee.org/document/9703109)]
+- Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction [[paper](https://ieeexplore.ieee.org/document/8962951)]
+
+### Tutorials
+
+- MRI acquisition & image reconstruction tutorial [[code](https://github.com/philouc/mri_acq_recon_tutorial)]
+
+
 ### arXiv papers
+ - Measurement-conditioned Denoising Diffusion Probabilistic Model for Under-sampled Medical Image Reconstruction [[paper](https://arxiv.org/abs/2203.03623)]
+ - Dual-Domain Reconstruction Networks with V-Net and K-Net for fast MRI [[paper](https://arxiv.org/abs/2203.05725v2)]
  - Fast MRI Reconstruction: How Powerful Transformers Are? [[paper](https://arxiv.org/pdf/2201.09400)]
  - Swin Transformer for Fast MRI [[paper](https://arxiv.org/pdf/2201.03230)] [[code](https://github.com/ayanglab/SwinMR)]
  - Federated Learning of Generative Image Priors for MRI Reconstruction [[paper](https://arxiv.org/abs/2202.04175)]
@@ -28,6 +38,10 @@
  - Unsupervised MRI Reconstruction via Zero-Shot Learned Adversarial Transformers [[paper](https://arxiv.org/pdf/2105.08059.pdf)]
 
 ### 2022
+ - Joint Reconstruction of Vascular Structure and Function Maps in Dynamic Contrast Enhanced MRI Using Vascular Heterogeneity Priors  (**TMI**) [[paper](https://ieeexplore.ieee.org/document/9511446/)]
+ - Spatiotemporal Flexible Sparse Reconstruction for Rapid Dynamic Contrast-Enhanced MRI (**TBE**) [[]paper](https://ieeexplore.ieee.org/document/9464645)]
+ - Robust joint registration of multiple stains and MRI for multimodal 3D histology reconstruction: Application to the Allen human brain atlas (**MedIA**)[[paper](https://linkinghub.elsevier.com/retrieve/pii/S1361841521003108)]
+ - IDPCNN: Iterative denoising and projecting CNN for MRI reconstruction (**J. CAM**) [[paper](https://doi.org/10.1016/j.cam.2021.113973)]
  - Learning Optimal K-space Acquisition and Reconstruction using Physics-Informed Neural Networks (**CVPR**) [[paper](https://arxiv.org/pdf/2204.02480.pdf)]
  - Transformer-empowered Multi-scale Contextual Matching and Aggregation for Multi-contrast MRI Super-resolution (**CVPR**) [[paper](https://arxiv.org/pdf/2203.13963.pdf)] [[code](https://github.com/XAIMI-Lab/McMRSR)]
  - Vox2Cortex: Fast Explicit Reconstruction of Cortical Surfaces from 3D MRI Scans with Geometric Deep Neural Networks (**CVPR**) [[paper](https://arxiv.org/pdf/2203.09446.pdf)]
@@ -37,8 +51,17 @@
  - Pyramid Convolutional RNN for MRI Image Reconstruction (**TMI**) [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9718239)]
  - Bayesian Uncertainty Estimation of Learned Variational MRI Reconstruction (**TMI**) [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9535511)]
  - Low-Rank and Framelet Based Sparsity Decomposition for Interventional MRI Reconstructionn (**TBE**) [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9678015)]
+ - A Plug-and-Play Approach To Multiparametric Quantitative MRI: Image Reconstruction Using Pre-Trained Deep Denoisers (**ISBI**) [[paper](https://ieeexplore.ieee.org/document/9761603)]
+ - LONDN-MRI: Adaptive Local Neighborhood-Based Networks for MR Image Reconstruction from Undersampled Data (**ISBI**) [[paper](https://ieeexplore.ieee.org/document/9761587/)]
+ - Leaders: Learnable Deep Radial Subsampling for Mri Reconstruction (**ISBI**) [[paper](https://ieeexplore.ieee.org/document/9761544)]
+ - MPTGAN: A Multimodal Prior-Based Triple-Branch Network for Fast Prostate Mri Reconstruction (**ISBI**) [[paper](https://ieeexplore.ieee.org/document/9761418)]
+ - Dynamic Cardiac MRI Reconstruction Using Combined Tensor Nuclear Norm and Casorati Matrix Nuclear Norm Regularizations (**ISBI**) [[paper](https://ieeexplore.ieee.org/document/9761409)]
+ - Distributed Memory-Efficient Physics-Guided Deep Learning Reconstruction for Large-Scale 3d Non-Cartesian MRI (**ISBI**) [[paper](https://ieeexplore.ieee.org/document/9761485)]
+ - Joint Alignment and Reconstruction of Multislice Dynamic MRI Using Variational Manifold Learning (**ISBI**) [[paper](https://ieeexplore.ieee.org/document/9761631)]
+ - Compressed Sensing MRI Reconstruction with Co-VeGAN: Complex-Valued Generative Adversarial Network (**WACV**) [[paper](https://ieeexplore.ieee.org/document/9706767)]
 
 ### 2021
+ - Robust Compressed Sensing MRI with Deep Generative Priors (**NeurIPS**) [[paper](https://arxiv.org/abs/2108.01368)] [[code](https://github.com/utcsilab/csgm-mri-langevin)]
  - Fine-grained MRI Reconstruction using Attentive Selection Generative Adversarial Networks (**ICASSP**) [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9414981&casa_token=UtCrghuknp0AAAAA:pxkuPIFgKTfJj6BMDVpjbnxJ_BXo_huSiFeQJEhtcgpiu95MJZY-dlSseNQ-YEtFkHSMtPwzsrM&tag=1)]
  - Brain MRI super-resolution using coupled-projection residual network (**Neurocomputing**) [[paper](https://www.sciencedirect.com/science/article/pii/S0925231221002502)]
  - Variational multi-task MRI reconstruction: Joint reconstruction, registration and super-resolution (**MedIA**) [[paper](https://doi.org/10.1016/j.media.2020.101941)]
@@ -68,6 +91,9 @@
  - Dual-Octave Convolution for Accelerated Parallel MR Image Reconstruction (**AAAI**) [[paper](https://arxiv.org/abs/2104.05345) [code](https://github.com/chunmeifeng/Dual-OctConv)]
  - DONet: Dual-Octave Network for Fast MR Image Reconstruction (**TNNLS**) [[paper](https://arxiv.org/abs/2105.05980)]
  - Adaptive Gradient Balancing for Undersampled MRI Reconstruction and Image-to-Image Translation (**ICCP**) [[paper](https://arxiv.org/abs/2104.01889)]
+- Motion-Guided Physics-Based Learning for Cardiac MRI Reconstruction [[paper](https://ieeexplore.ieee.org/document/9723134)] 
+- Systematic evaluation of iterative deep neural networks for fast parallel MRI reconstruction with sensitivity-weighted coil combination [[paper](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28827)]
+- Regularization-Agnostic Compressed Sensing MRI Reconstruction with Hypernetworks [[paper](https://link.springer.com/chapter/10.1007/978-3-030-88552-6_1)] [[code](https://github.com/alanqrwang/hyperrecon)]
 ### 2020
  - DuDoRNet: Learning a Dual-Domain Recurrent Network for Fast MRI Reconstruction with Deep T1 Prior (**CVPR**) [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhou_DuDoRNet_Learning_a_Dual-Domain_Recurrent_Network_for_Fast_MRI_Reconstruction_CVPR_2020_paper.pdf)] [[code](https://github.com/bbbbbbzhou/DuDoRNet)]
  - GrappaNet: Combining Parallel Imaging With Deep Learning for Multi-Coil MRI Reconstruction  (**CVPR**) [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sriram_GrappaNet_Combining_Parallel_Imaging_With_Deep_Learning_for_Multi-Coil_MRI_CVPR_2020_paper.pdf)]
@@ -80,11 +106,14 @@
  - Model-Driven Deep Attention Network for Ultra-fast Compressive Sensing MRI Guided by Cross-contrast MR Image (**MICCAI**) [[paper](https://link.springer.com/content/pdf/10.1007%2F978-3-030-59713-9_19.pdf)]
  - CDF-Net: Cross-Domain Fusion Network for Accelerated MRI Reconstruction  (**MICCAI**) [[paper](https://link.springer.com/content/pdf/10.1007%2F978-3-030-59713-9_41.pdf)]
 ### 2019
- - ...
+ -  k-Space Deep Learning for Accelerated MRI [[paper](https://ieeexplore.ieee.org/document/8756028)] [[code](https://github.com/hanyoseob/k-space-deep-learning)]
 ### 2018
- - ...
+ - KIKI-net: cross-domain convolutional neural networks for reconstructing undersampled magnetic resonance images [[paper](https://pubmed.ncbi.nlm.nih.gov/29624729/)]  
+- Learning a variational network for reconstruction of accelerated MRI data [[paper](https://onlinelibrary.wiley.com/doi/10.1002/mrm.26977)] [[code](https://github.com/VLOGroup/mri-variationalnetwork)]
+- Bayesian Deep Learning for Accelerated MR Image Reconstruction [[paper](https://link.springer.com/chapter/10.1007/978-3-030-00129-2_8)]
 ### 2017
- - ...
+ - A Deep Cascade of Convolutional Neural Networks for Dynamic MR Image Reconstruction [[paper](https://ieeexplore.ieee.org/document/8067520)] [[code](https://github.com/cq615/Deep-MRI-Reconstruction)]
+ - A Deep Cascade of Convolutional Neural Networks for MR Image Reconstruction [[paper](https://ieeexplore.ieee.org/document/8067520)] [[code](https://github.com/cq615/Deep-MRI-Reconstruction)] 
 
 ## Datasets
  - [FastMRI dataset](https://fastmri.org/) [[paper](https://arxiv.org/abs/1811.08839)] [[code](https://github.com/facebookresearch/fastMRI)]
